@@ -1,0 +1,6 @@
+CREATE TABLE USERS
+(
+  uid       VARCHAR(64) PRIMARY KEY,
+  nom       VARCHAR(64) NOT NULL,
+  prenom    VARCHAR(64) NOT NULL
+ );
